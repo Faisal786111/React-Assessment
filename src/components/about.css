@@ -1,0 +1,33 @@
+.main-section {
+    width: 60%;
+    padding-left: 30px;
+}
+
+ul {
+    list-style: none;
+    line-height: 25px;
+    position: relative;
+}
+
+ul li:before {
+    content: '✓';
+    position: absolute;
+    left: 1%;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+  
+ol li {
+    padding-bottom: 10px;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+}
+  
+ol li::before {
+    content: "✓";
+    padding-right: 25px;
+}
